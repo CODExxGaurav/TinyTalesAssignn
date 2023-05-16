@@ -5,3 +5,6 @@ In the App function, we define our state variables using the useState hook. We t
 Next, we define a function called handleExport that will be called when the user clicks the Export button. This function generates a CSV file containing the data of the histogram and downloads it using the download attribute of an <a> tag.
 
 Finally, we render our component using JSX. We create a button with a click handler that calls the fetchData function. We disable the button when data is being
+
+
+Deployed on vercel : tiny-tales-assignn.vercel.app
